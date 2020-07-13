@@ -1,0 +1,111 @@
+* {
+	border-radius: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.main{	
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+body{	
+	padding-left: 0px;
+	padding-right: 0px;	
+	margin: 0 auto;	
+	background-color: #F5DEB3;	
+	font-size: 1em;
+}
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;		
+	color: #333333;
+	font-size: 1.2em;
+}
+.minusculo {
+	text-transform: lowercase;
+}
+input {
+	text-transform: uppercase;
+	border: 1px solid #333333;
+	border-radius: 0px;	
+	font-size: 1em;		
+	
+}
+input:focus{
+    border-radius: 0px;
+    outline: none;
+    border: 1px solid #333333;
+    box-shadow: none;
+}
+textarea {
+	text-transform: uppercase;
+	border: 1px solid #333333;	
+	border-radius: 0px;	
+}
+input[type="submit"] {
+	border: 1px solid #333333;	
+	border-radius: 0px;
+	text-transform: none;	
+	text-align: center;
+	line-height: 20px;
+}
+select {
+	text-transform: uppercase;
+	border-radius: 0px;
+	border: 1px solid #333333;
+	font-size: 1em;
+}
+select:focus{
+    border-radius: 0px;
+    outline: none;
+    border: 1px solid #333333;
+    box-shadow: none;
+}
+label {
+	color: #333333;	
+	padding-right: 5px;
+}
+p {
+	text-align: justify;
+	text-indent: 2em;
+}
+.anuncio {
+	width: auto;
+	height: auto;
+	min-height: 100%;
+	min-width: 100%;
+	margin-bottom: 0px;
+	padding-top: 0px;
+}
+div {
+	padding: 0px;
+}
+img {
+	max-height: 300px;
+	max-width: 600px;
+	border: 1px solid #333333;
+	padding: 0px;
+}
+.novo {
+	text-align: center;
+}
+.minusculo {
+	text-transform: lowercase;
+}
+.mensagem {
+	border-radius: 0px;
+	border: 1px #333333 solid;
+	width: 600px;
+	text-align: center;
+}
+table {
+	border-collapse: collapse;
+		
+}
+table, th, td {	
+	padding: 3px;	
+}
+.tabela td:nth-child(1) {	
+	text-align: left;	
+}
+.tabela td:nth-child(2) {
+	text-align: left;
+}
