@@ -1,11 +1,17 @@
 <?php
-require_once '../database/sql.php';
-
-//echo gettype($value), "\n";
-//echo $value, "\n";
+require_once 'sql.php';
 ?>
 
-<table style="border:1px solid black;" bgcolor="#CCC" width="100%">
+<!DOCTYPE html>
+<html>
+<head>
+<?php require_once 'cabecalho.php';?>
+</head>
+<body>
+<?php require_once 'menu.php';?>
+<div class="main">
+<br>
+<table style="border:none;opacity: 1;" width="100%">
 
 <?php
 $contador = 0;
@@ -38,3 +44,6 @@ foreach($pdo->query( 'exec stpSecurity_Checklist' ) as $key => $value)
 }
 ?>
 </table>
+</div> 
+</body>
+</html>
