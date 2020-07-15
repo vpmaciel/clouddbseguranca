@@ -6,7 +6,7 @@
 <meta name="robots" content="no-cache">
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="estilo.css">
-<link rel="icon" type="image/ico" href="img/favicon.ico">
+<link rel="icon" type="image/ico" href="favicon.ico">
 <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascrispt"></script>
 <script src="script.js"></script>
 <title>BitCurrículo</title>
