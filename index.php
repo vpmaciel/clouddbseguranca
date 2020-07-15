@@ -17,7 +17,8 @@
    <br><br><b>Sugestão de Correção:</b> Algumas orientações de como corrigir ou contornar o possível problema identificado pela Stored Procedure
    <br><br><b>Resultados da Validação:</b> XML que retorna os registros que causaram a falha da validação e os artefatos identificados (alguns itens são limitados a TOP(N) registros, pois podem tem muitos registros retornados no XML)
    <br><br><b>URL de Referência:</b> Link de algum artigo ou documentação que possa agregar ou ajudar no entendimento desse item de verificação
-	</p>
 </div> 
 </body>
 </html>
+
+
